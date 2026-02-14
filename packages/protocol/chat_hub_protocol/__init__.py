@@ -4,6 +4,14 @@
 """
 
 from .chat import ChatEvent, ChatPayload, EventType, Message, Role
+from .command import (
+    ClearContextCommand,
+    ClearMemoryCommand,
+    Command,
+    CommandPayload,
+    CommandResult,
+    SetContextLengthCommand,
+)
 from .message import (
     AudioSegment,
     FileSegment,
@@ -20,6 +28,13 @@ __all__ = [
     "EventType",
     "Message",
     "Role",
+    # commands
+    "ClearContextCommand",
+    "ClearMemoryCommand",
+    "Command",
+    "CommandPayload",
+    "CommandResult",
+    "SetContextLengthCommand",
     # message segments
     "AudioSegment",
     "FileSegment",
