@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "chat-hub-protocol"
+version = "0.1.0"
+description = "Chat Hub 通信协议，定义客户端与服务端的公共数据结构"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+    "pydantic>=2.0",
+]
+
+[project.urls]
+Repository = "https://github.com/your-org/chat-hub"
+
+[tool.hatch.build.targets.wheel]
+packages = ["chat_hub_protocol"]
