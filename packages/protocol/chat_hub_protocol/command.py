@@ -27,18 +27,10 @@ class ClearMemoryCommand(BaseModel):
     type: Literal["clear_memory"] = "clear_memory"
 
 
-class SetContextLengthCommand(BaseModel):
-    """设置上下文最大长度。"""
-
-    type: Literal["set_context_length"] = "set_context_length"
-    length: int
-    """上下文最大消息条数。"""
-
-
 # ── 联合类型 ──────────────────────────────────────────────
 
 Command = Annotated[
-    Union[ClearContextCommand, ClearMemoryCommand, SetContextLengthCommand],
+    Union[ClearContextCommand, ClearMemoryCommand],
     Field(discriminator="type"),
 ]
 """命令联合类型，通过 `type` 字段自动区分具体命令。"""

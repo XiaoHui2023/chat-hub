@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/your-org/chat-hub"
+Repository = "https://github.com/XiaoHui2023/chat-hub"
 
 [tool.hatch.build.targets.wheel]
 packages = ["chat_hub_protocol"]

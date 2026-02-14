@@ -30,3 +30,6 @@ htmlcov/
 
 # Docs build output
 site/
+
+# Cursor
+.cursor

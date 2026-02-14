@@ -10,7 +10,6 @@ from .command import (
     Command,
     CommandPayload,
     CommandResult,
-    SetContextLengthCommand,
 )
 from .message import (
     AudioSegment,
@@ -34,7 +33,6 @@ __all__ = [
     "Command",
     "CommandPayload",
     "CommandResult",
-    "SetContextLengthCommand",
     # message segments
     "AudioSegment",
     "FileSegment",

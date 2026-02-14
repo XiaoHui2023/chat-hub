@@ -4,4 +4,4 @@
 
 ## Settings
 
-::: chat_hub.config.Settings
+::: src.config.Settings

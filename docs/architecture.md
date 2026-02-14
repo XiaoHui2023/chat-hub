@@ -41,13 +41,13 @@ Chat Hub 采用**单体仓库（monorepo）** 结构，包含两个主要部分�
 | `message.py` | 消息内容段：`TextSegment`、`ImageSegment`、`AudioSegment`、`VideoSegment`、`FileSegment` |
 | `command.py` | 控制命令：`ClearContextCommand`、`ClearMemoryCommand`、`SetContextLengthCommand` |
 
-### 2. 应用层 (`chat_hub`)
+### 2. 应用层 (`src`)
 
 | 模块 | 职责 |
 |------|------|
 | `hub.py` | Hub 核心，管理 Bot 注册和消息路由 |
 | `config.py` | 应用配置，通过环境变量/`.env` 加载 |
-| `main.py` | 应用入口 |
+| `__main__.py` | 应用入口 |
 
 ## 数据流
 

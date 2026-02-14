@@ -62,7 +62,7 @@ msg = Message(
 ### 注册 Bot 并处理消息
 
 ```python
-from chat_hub.hub import Hub
+from src.hub import Hub
 from chat_hub_protocol import ChatPayload, ChatEvent, EventType, Message, Role
 
 hub = Hub()
@@ -106,6 +106,12 @@ cmd = CommandPayload(
     session_id="sess-abc",
     command=SetContextLengthCommand(length=20),
 )
+```
+
+## 启动服务
+
+```bash
+python -m src
 ```
 
 ## 配置
