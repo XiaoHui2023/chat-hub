@@ -4,6 +4,7 @@
 """
 
 from .chat import ChatEvent, ChatPayload, EventType, Message, Role
+from .client import chat, chat_segments, clear_context, clear_memory
 from .command import (
     ClearContextCommand,
     ClearMemoryCommand,
@@ -27,6 +28,11 @@ __all__ = [
     "EventType",
     "Message",
     "Role",
+    # client helpers
+    "chat",
+    "chat_segments",
+    "clear_context",
+    "clear_memory",
     # commands
     "ClearContextCommand",
     "ClearMemoryCommand",

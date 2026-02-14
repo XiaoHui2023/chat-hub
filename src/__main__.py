@@ -2,16 +2,19 @@
 
 from __future__ import annotations
 
-from src.config import settings
-from src.hub import Hub
+import uvicorn
 
-hub = Hub()
+from models import settings
 
 
 def main() -> None:
     """启动 Chat Hub 服务。"""
-    print(f"Chat Hub starting on {settings.host}:{settings.port} ...")
-    # TODO: 在此处启动实际的服务（如 FastAPI / WebSocket 等）
+    uvicorn.run(
+        "src.api:app",
+        host=settings.host,
+        port=settings.port,
+        reload=settings.debug,
+    )
 
 
 if __name__ == "__main__":
