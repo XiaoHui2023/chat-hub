@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://XiaoHui2023.github.io/chat-hub/</loc>
+         <lastmod>2026-02-14</lastmod>
+    </url>
+    <url>
+         <loc>https://XiaoHui2023.github.io/chat-hub/architecture/</loc>
+         <lastmod>2026-02-14</lastmod>
+    </url>
+    <url>
+         <loc>https://XiaoHui2023.github.io/chat-hub/getting-started/</loc>
+         <lastmod>2026-02-14</lastmod>
+    </url>
+    <url>
+         <loc>https://XiaoHui2023.github.io/chat-hub/api/config/</loc>
+         <lastmod>2026-02-14</lastmod>
+    </url>
+    <url>
+         <loc>https://XiaoHui2023.github.io/chat-hub/api/hub/</loc>
+         <lastmod>2026-02-14</lastmod>
+    </url>
+    <url>
+         <loc>https://XiaoHui2023.github.io/chat-hub/api/protocol/chat/</loc>
+         <lastmod>2026-02-14</lastmod>
+    </url>
+    <url>
+         <loc>https://XiaoHui2023.github.io/chat-hub/api/protocol/command/</loc>
+         <lastmod>2026-02-14</lastmod>
+    </url>
+    <url>
+         <loc>https://XiaoHui2023.github.io/chat-hub/api/protocol/message/</loc>
+         <lastmod>2026-02-14</lastmod>
+    </url>
+</urlset>
